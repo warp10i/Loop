@@ -14,9 +14,9 @@ enum CarbAbsorptionTime: Int, CaseIterable {
     var emoji: String {
         switch self {
         case .fast:
-            return "🍭"
-        case .medium:
             return "🌮"
+        case .medium:
+            return "🍟"
         case .slow:
             return "🍕"
         }
